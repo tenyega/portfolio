@@ -1,6 +1,7 @@
 
 
 interface Project {
+    link: string;
     image: string;
     name: string;
     desc: string;
@@ -18,31 +19,31 @@ export default function Project({ prop }: Props) {
    
     const projectList = [
         {
-            lien:"https://github.com/QuentinVigier/Hackathon",
+            link:"https://github.com/QuentinVigier/Hackathon",
             image: "http://via.placeholder.com/400",
             name: "Hackathon",
             desc: "Detection dobject en live et de lister et filter.  ",
             techno: [ "All",  "HTML" ,"CSS","JS","IndexDB"]
         }, {
-            lien: "https://github.com/tenyega/final-symfony",
+            link: "https://github.com/tenyega/final-symfony",
             image:"http://via.placeholder.com/400",
             name: "E-Commerce ",
             desc: "E-commerce shop for ", 
             techno:["All","Symphony","HTML","CSS", "SQL"]
         }, {
-            lien: "https://github.com/tenyega/hotel-reservation", 
+            link: "https://github.com/tenyega/hotel-reservation", 
             image: "http://via.placeholder.com/400",
             name: "Hotel Reservation",
             desc: "Reservation of different rooms of a hotel", 
             techno:["All","Symphony","HTML","CSS","SQL"]
         },{
-            lien: "https://github.com/tenyega/react-express",
+            link: "https://github.com/tenyega/react-express",
             image:"http://via.placeholder.com/400",
             name: "React Express",
             desc: "Placement of different composant in a website ", 
             techno:["All","React","Vite","tailwindcss","HTML","CSS"]
         }, {
-            lien: "https://github.com/tenyega/portfolio",
+            link: "https://github.com/tenyega/portfolio",
             image:"http://via.placeholder.com/400",
             name: "Portfolio",
             desc: "Creating the portfolio using different platforms",
@@ -58,7 +59,7 @@ export default function Project({ prop }: Props) {
                         <div className="p-3 text-center border rounded-md border-neutral-700" key={p.name}>
                             <img src={p.image } alt="" className="mb-3" />
                             <h4 className="text-slate-500">{p.name}</h4>
-                            <p className="text-slate-500">{p.desc} <a href={p.lien} className="underline">Link</a></p>
+                            <p className="text-slate-500">{p.desc} <a href={p.link} className="underline">Link</a></p>
                         </div>
 
                     ) )                   
