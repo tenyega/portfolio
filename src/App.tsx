@@ -3,6 +3,10 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Nav from './components/nav'
+import 'animate.css';
+import Swup from 'swup';
+const swup = new Swup();
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,9 +14,9 @@ function App() {
   return (
     <>
       <Nav/>
-      <div>
+      <div className='animate__animated animate__bounce'>
         <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
+          <img src={viteLogo} className="logo"  alt="Vite logo" />
         </a>
         <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
