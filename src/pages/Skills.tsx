@@ -1,7 +1,8 @@
+import { useState } from "react"
 import Project from "./project"
 
 export default function Skills() {
-
+    const [choice, setChoice] = useState("All");
     const skillList = [
         {
             name: "Symphony",
@@ -12,7 +13,7 @@ export default function Skills() {
             image: "https://api.iconify.design/logos:adonisjs-icon.svg?color=%23888888",
             desc:"Node fullstack framework for modern and robust web applications"
         }, {
-            name: "React JS",
+            name: "React",
             image:"https://api.iconify.design/logos:react.svg?color=%23ffffff",
             desc:"JS Library for building UI web applications"
         }, {
@@ -61,18 +62,21 @@ export default function Skills() {
             desc:"graphics editing software , widely used for manipulating and enhancing digital images"
         },
     ]
+
+    
     return (
       <>
             <section className="flex gap-5 px-5 py-10">
                 
             <div className="w-1/3">
-                    <h1 className="mb-5 text-3xl font-bold text-white">Skill set</h1>
-                    <p className="leading-relaxed text-slate-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio modi sapiente atque officiis perferendis architecto at n.</p>
+                    <h1 className="mb-5 text-3xl font-bold text-white">Skillset</h1>
+                    <p className="leading-relaxed text-slate-500">With skills in different fields of design, I am the perfect person to hire when it comes to a full fledged project. Whatever your needs are, I can pretty much take on any challenge.</p>
                 </div>
                 <ul className="grid w-2/3 grid-cols-4">
                 {skillList.map((skill) => (
                
-                <li key={skill.name} >
+                    <li key={skill.name} data-choice={skill.name}
+                    onClick={()=>setChoice(skill.name)} className="cursor-pointer">
                     <img src={skill.image} alt={skill.name + " logo"}  width={ 32 }  className="transition ease-in-out hover:scale-125"/> 
                     <h3 className="text-lg font-semibold text-white">{skill.name}</h3>
                  
@@ -83,7 +87,7 @@ export default function Skills() {
                  ))} </ul>
             </section> 
             <section className="text-white">
-            <Project projects={"All" }/>
+            <Project prop={choice}/>
 
             </section>
       
