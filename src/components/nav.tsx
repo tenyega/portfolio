@@ -10,7 +10,7 @@ export default function Nav() {
                     <NavLink to="/skills" className="text-gray-300 hover:text-white"> Mes compétences</NavLink>
                 </li>
                 <li>
-                    <a href="/contact" className="text-gray-300 hover:text-white">Contact</a>
+                    <NavLink to="/contact" className="text-gray-300 hover:text-white">Contact</NavLink>
                 </li>
                 
             </ul>
