@@ -8,7 +8,7 @@ import {
 } from "react-router-dom";
 import Home from './pages/Home';
 import Skills from './pages/Skills';
-import Contact from './pages/Contact';
+import Contacts from './pages/Contact';
 
 
 
@@ -24,7 +24,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/contact",
-    element: <Contact />
+    element: <Contacts />
   }
 ]);
 
