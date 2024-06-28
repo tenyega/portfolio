@@ -1,5 +1,6 @@
 import { useState } from "react"
-import Project from "./project"
+import Project from "../components/project"
+import Nav from "../components/nav";
 
 export default function Skills() {
     const [choice, setChoice] = useState("All");
@@ -65,7 +66,8 @@ export default function Skills() {
 
     
     return (
-      <>
+        <>
+            <Nav />
             <section className="flex gap-5 px-5 py-10">
                 
             <div className="w-1/3">

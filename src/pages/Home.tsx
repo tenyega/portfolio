@@ -10,6 +10,7 @@ function Home() {
 
   return (
     <>
+       <main className="flex flex-col items-center justify-center gap-5 px-5 py-10"></main>
       <Nav/>
     
     </>
