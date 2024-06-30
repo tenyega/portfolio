@@ -20,38 +20,38 @@ export default function Project({ prop }: Props) {
     const projectList = [
         {
             link:"https://hackathonfinal-kq82swkkl-tenyegas-projects.vercel.app/",
-            image: "./hackathon.png",
+            image: "../assets/hackathon.png",
             name: "Hackathon",
-            desc: "Detection dobject en live et de lister et filter.  ",
+            desc: "Detection of object in live, display and filter at the same time  ",
             techno: [ "All",  "HTML" ,"CSS","JS","IndexDB"]
         }, {
             link: "https://github.com/tenyega/final-symfony",
-            image:"http://via.placeholder.com/400",
+            image:"http://via.placeholder.com/200",
             name: "E-Commerce ",
             desc: "E-commerce shop for ", 
             techno:["All","Symphony","HTML","CSS", "SQL"]
         }, {
             link: "https://github.com/tenyega/hotel-reservation", 
-            image: "http://via.placeholder.com/400",
+            image: "http://via.placeholder.com/200",
             name: "Hotel Reservation",
             desc: "Reservation of different rooms of a hotel", 
             techno:["All","Symphony","HTML","CSS","SQL"]
         },{
             link: "https://github.com/tenyega/react-express",
-            image:"http://via.placeholder.com/400",
+            image:"http://via.placeholder.com/200",
             name: "React Express",
             desc: "Placement of different composant in a website ", 
             techno:["All","React","Vite","tailwindcss","HTML","CSS"]
         }, {
             link: "https://github.com/tenyega/portfolio",
-            image:"http://via.placeholder.com/400",
+            image:"http://via.placeholder.com/200",
             name: "Portfolio",
-            desc: "Creating the portfolio using different platforms",
+            desc: "Creating the portfolio using different platforms including React and Typescript ",
             techno:["All","React Js","HTML","CSS","Typescript"]
         },
         {
             link: "https://cinemax-tau-brown.vercel.app/",
-            image:"./cinemax.png",
+            image:"../assets/cinemax.png",
             name: "Cinemax",
             desc: "Searching different cinemax in the data base",
             techno:["All","React Js","HTML","CSS","Typescript"]
@@ -64,7 +64,8 @@ export default function Project({ prop }: Props) {
                 {
                     results.map((p) => (
                         <div className="p-3 text-center border rounded-md border-neutral-700" key={p.name}>
-                            <img src={p.image } alt="" className="mb-3" />
+                           
+                            <img src={p.image } alt={p.image } className="mb-3"  width={400} height={200}/>
                             <h4 className="text-slate-500">{p.name}</h4>
                             <p className="text-slate-500">{p.desc} <a href={p.link} className="underline">Link</a></p>
                         </div>
