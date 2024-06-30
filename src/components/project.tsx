@@ -19,7 +19,7 @@ export default function Project({ prop }: Props) {
    
     const projectList = [
         {
-            link:"https://github.com/QuentinVigier/Hackathon",
+            link:"https://hackathonfinal-kq82swkkl-tenyegas-projects.vercel.app/",
             image: "http://via.placeholder.com/400",
             name: "Hackathon",
             desc: "Detection dobject en live et de lister et filter.  ",
