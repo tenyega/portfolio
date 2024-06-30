@@ -48,6 +48,13 @@ export default function Project({ prop }: Props) {
             name: "Portfolio",
             desc: "Creating the portfolio using different platforms",
             techno:["All","React Js","HTML","CSS","Typescript"]
+        },
+        {
+            link: "https://cinemax-tau-brown.vercel.app/",
+            image:"./cinemax.png",
+            name: "Cinemax",
+            desc: "Searching different cinemax in the data base",
+            techno:["All","React Js","HTML","CSS","Typescript"]
         }
     ]
     const results = projectList.filter((p) => p.techno.includes(prop));
