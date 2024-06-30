@@ -7,10 +7,11 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview", 
-    "tailwind":"npx tailwindcss -i ./src/main.css -o ./src/style.css --watch"
+    "preview": "vite preview",
+    "tailwind": "npx tailwindcss -i ./src/main.css -o ./src/style.css --watch"
   },
   "dependencies": {
+    "@react-google-maps/api": "^2.19.3",
     "animate.css": "^4.1.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",

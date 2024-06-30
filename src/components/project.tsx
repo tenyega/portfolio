@@ -24,6 +24,20 @@ export default function Project({ prop }: Props) {
             name: "Hackathon",
             desc: "Detection of object in live, display and filter at the same time  ",
             techno: [ "All",  "HTML" ,"CSS","JS","IndexDB"]
+        },
+        {
+            link: "https://cinemax-tau-brown.vercel.app/",
+            image:"../assets/cinemax.png",
+            name: "Cinemax",
+            desc: "Searching different cinemax in the data base",
+            techno:["All","React Js","HTML","CSS","Typescript"]
+        },
+        {
+            link: "https://swissasiapartner.com",
+            image:"../assets/swissasiapartner.png",
+            name: "Swiss Asia Partner",
+            desc: "Searching different cinemax in the data base",
+            techno:["All","Wordpress", "Css"]
         }, {
             link: "https://github.com/tenyega/final-symfony",
             image:"http://via.placeholder.com/200",
@@ -47,13 +61,6 @@ export default function Project({ prop }: Props) {
             image:"http://via.placeholder.com/200",
             name: "Portfolio",
             desc: "Creating the portfolio using different platforms including React and Typescript ",
-            techno:["All","React Js","HTML","CSS","Typescript"]
-        },
-        {
-            link: "https://cinemax-tau-brown.vercel.app/",
-            image:"../assets/cinemax.png",
-            name: "Cinemax",
-            desc: "Searching different cinemax in the data base",
             techno:["All","React Js","HTML","CSS","Typescript"]
         }
     ]
