@@ -20,7 +20,7 @@ export default function Project({ prop }: Props) {
     const projectList = [
         {
             link:"https://hackathonfinal-kq82swkkl-tenyegas-projects.vercel.app/",
-            image: "http://via.placeholder.com/400",
+            image: "./hackathon.png",
             name: "Hackathon",
             desc: "Detection dobject en live et de lister et filter.  ",
             techno: [ "All",  "HTML" ,"CSS","JS","IndexDB"]
