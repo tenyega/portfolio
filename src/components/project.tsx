@@ -58,7 +58,7 @@ export default function Project({ prop }: Props) {
             techno:["All","React","Vite","tailwindcss","HTML","CSS"]
         }, {
             link: "https://github.com/tenyega/portfolio",
-            image:"http://via.placeholder.com/200",
+            image:"../assets/portfolio.png",
             name: "Portfolio",
             desc: "Creating the portfolio using different platforms including React and Typescript ",
             techno:["All","React Js","HTML","CSS","Typescript"]
