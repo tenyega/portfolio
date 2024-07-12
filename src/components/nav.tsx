@@ -9,7 +9,7 @@ export default function Nav() {
         <div className="text-xl text-white "><Link to="/"><img src="../assets/logo.png" width={50} height={50} className="rounded-full"/></Link></div>
                 <ul className="flex space-x-4">
                 <li>
-                    <NavLink to="/diplome" className="text-gray-300 hover:text-white"> Diplomes</NavLink>
+                    <NavLink to="/formation" className="text-gray-300 hover:text-white">Formation</NavLink>
                 </li>
                 <li>
                     <NavLink to="/work" className="text-gray-300 hover:text-white">Work</NavLink>

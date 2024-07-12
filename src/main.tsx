@@ -10,7 +10,7 @@ import Home from './pages/Home';
 import Skills from './pages/Skills';
 import Contact from './pages/Contact';
 import Work from './pages/Work';
-import Diplome from './pages/Diplome';
+import Diplome from './pages/Formation';
 
 
 
