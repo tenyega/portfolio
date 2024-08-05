@@ -68,6 +68,12 @@ export default function Project({ prop }: Props) {
             name: "todolist",
             desc: "Created a complete web application for maintaining a todo list by deploying even a JSON server on vercel.com ",
             techno:["All","React Js","HTML","CSS","Typescript","Json-server"]
+        }, {
+            link: "https://application-de-recette-de-cuisine.vercel.app/",
+            image:"../assets/recette_de_cuisine.png",
+            name: "recette_de_cuisine",
+            desc: "Creation of a web application to search for the recette with the recettes availabile via un JSON server then to deploy using a vercel.com, different functionalities of the recette is also integrated like filter based on categories and type of cuisine and on top of add and remove the recette in favorites",
+            techno:["All","React Js","HTML","CSS","Typescript","Json-server"]
         }
     ]
     const results = projectList.filter((p) => p.techno.includes(prop));
