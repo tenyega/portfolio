@@ -2,6 +2,7 @@
 import Nav from '../components/nav';
 import { motion } from "framer-motion"
 import Typewriter from '../components/typewriter';
+import Counter from '../components/counter';
 
 /**
  * (this comment is shown to the user when we have a hover on the composant name in another composant)
@@ -29,22 +30,22 @@ function Home() {
       <div className='flex flex-row w-screen gap-40 m-10'>
       <motion.div />
         <div>
-          <h1 className='w-1/4 text-8xl'> 01</h1>
+          <Counter targetNumber={1} delay={1000} />
           <h3>Tibetan(Maternal language)</h3>
         </div>
         <div>
-          <h1 className='w-1/4 text-8xl'> 02</h1>
+          <Counter targetNumber={2} delay={1000} />
           <h3>French</h3>
         </div>
         <div>
-          <h1 className='w-1/4 text-8xl '> 03</h1>
+          <Counter targetNumber={3} delay={1000} />
           <h3>English</h3>
         </div>
         <div>
-          <h1 className='w-1/4 text-8xl '> 04</h1>
+          <Counter targetNumber={4} delay={1000} />
           <h3>Hindi</h3>
         </div>
-      </div>
+      </div>  
     </>
   )
 }

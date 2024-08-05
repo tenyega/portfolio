@@ -9,6 +9,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
 </head>
 
 <body class="bg-neutral-950">
@@ -16,7 +18,19 @@
   <div id="root" class="max-w-screen-lg m-auto"></div>
 
   <script type="module" src="/src/main.tsx"></script>
-
+  <script>
+    var typed = new Typed('#element', {
+      strings: [
+      'De quoi allons nous parler aujourd\'hui ?',
+      'Que souhaites-tu apprendre de nouveau ?',
+      'Comment puis-je t\'aider ?'
+      ],
+      cursorChar: '...',
+      fadeOut: true,
+      loop: true,
+      typeSpeed: 20,
+    });
+  </script>
 </body>
 
 </html>
