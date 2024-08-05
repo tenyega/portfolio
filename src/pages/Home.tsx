@@ -1,6 +1,7 @@
 
 import Nav from '../components/nav';
 import { motion } from "framer-motion"
+import Typewriter from '../components/typewriter';
 
 /**
  * (this comment is shown to the user when we have a hover on the composant name in another composant)
@@ -18,7 +19,7 @@ function Home() {
           <img src='../assets/application_developper.png' width={5000} height={5000} />
         </div>
         <div className='w-1/2'>
-          <h1 className='text-5xl'> My Dream In My Own Words.</h1>
+          <Typewriter text=" My Dream In My Own Words." delay={100} />
           <p className='justify-items-center'>A passionate computer application developer originally from Tibet. I have a deep interest in programming languages and software development, driven by my curiosity to create innovative solutions that can positively impact our world. My journey in computer applications began with a fascination for technology and a desire to harness its power to solve real-world challenges. I am dedicated to mastering various programming languages and frameworks to build robust and user-friendly applications. Beyond coding, I am also enthusiastic about exploring how technology can contribute to the cultural richness and development of Tibet. </p>
         </div>        
       </div>
