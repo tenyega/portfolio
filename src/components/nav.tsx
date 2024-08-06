@@ -11,9 +11,7 @@ export default function Nav() {
                 <li>
                     <NavLink to="/formation" className="text-gray-300 hover:text-white">Formation</NavLink>
                 </li>
-                <li>
-                    <NavLink to="/work" className="text-gray-300 hover:text-white">Work</NavLink>
-                </li>
+                
                 <li>
                     <NavLink to="/skills" className="text-gray-300 hover:text-white"> Skill Sets</NavLink>
                 </li>

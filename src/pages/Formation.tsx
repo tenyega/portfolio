@@ -25,13 +25,13 @@ export default function Formation(){
     return (<>
         <Nav />
         <>
-                    <h1 className="mb-5 text-3xl font-bold text-white">Studies</h1>
-                    <div className="grid grid-cols-3 gap-5 px-5 py-10 ">
-                
+                                    <div className="grid grid-cols-3 gap-5 px-5 py-10">
+
                 {
                   
-                    dipliomeList.map((d) => (
-                        <div className="p-3 text-center border rounded-md border-neutral-700" key={d.title}>
+                dipliomeList.map((d) => (
+
+                        <div className="p-3 text-center border rounded-md border-neutral-700 w-50%" key={d.title}>
                            
                             <img src={d.logo } alt={d.logo } className="mb-3"  width={400} height={200}/>
                             <h4 className="text-slate-500">{d.title}</h4>
