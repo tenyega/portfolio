@@ -40,7 +40,7 @@ export default function Project({ prop }: Props) {
             techno:["All","Wordpress", "Css"]
         }, {
             link: "https://github.com/tenyega/final-symfony",
-            image:"http://via.placeholder.com/200",
+            image:"../assets/final-symfony.png",
             name: "E-Commerce ",
             desc: "E-commerce shop for ", 
             techno:["All","Symphony","HTML","CSS", "SQL"]
