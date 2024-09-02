@@ -16,9 +16,11 @@ export default function Nav() {
                     <NavLink to="/skills" className="text-gray-300 hover:text-white"> Skill Sets</NavLink>
                 </li>
                 <li>
+                    <NavLink to="/projects" className="text-gray-300 hover:text-white">Projects</NavLink>
+                </li>
+                <li>
                     <NavLink to="/contact" className="text-gray-300 hover:text-white">Contact</NavLink>
                 </li>
-                
             </ul>
         </div>
         </nav>
