@@ -10,7 +10,7 @@ import Home from './pages/Home';
 import Skills from './pages/Skills';
 import Contact from './pages/Contact';
 import Formation from './pages/Formation';
-import Project from './pages/projects';
+import Project from './pages/ProjectList';
 
 
 

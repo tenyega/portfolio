@@ -65,21 +65,39 @@ export default function Project({ prop }: Props) {
         }, {
             link: "https://final-project-todo-list.vercel.app/",
             image:"../assets/TODOList.png",
-            name: "todolist",
+            name: "TODO List",
             desc: "Created a complete web application for maintaining a todo list by deploying even a JSON server on vercel.com ",
             techno:["All","React Js","HTML","CSS","Typescript","Json-server"]
         }, {
             link: "https://application-de-recette-de-cuisine.vercel.app/",
             image:"../assets/recette_de_cuisine.png",
-            name: "recette_de_cuisine",
+            name: "Recette Website",
             desc: "Creation of a web application to search for the recette with the recettes availabile via un JSON server then to deploy using a vercel.com, different functionalities of the recette is also integrated like filter based on categories and type of cuisine and on top of add and remove the recette in favorites",
             techno:["All","React Js","HTML","CSS","Typescript","Json-server"]
         }, {
-            link: "https://application-de-recette-de-cuisine.vercel.app/",
+            link: "https://github.com/tenyega/ECF_html_js_css",
             image:"../assets/tsonglams.png",
-            name: "tsonglams",
+            name: "Tsonglams",
             desc: "Creation of a website entirely in JS( JS Vanilla) part of the project during the formation of Developpeur Web et Web Mobile. ",
-            techno:["All","HTML","CSS"]
+            techno:["All","HTML","CSS", "JS"]
+        }, {
+            link: "https://github.com/tenyega/audioGenerator",
+            image:"../assets/audio_generator.png",
+            name: "Audio Generator",
+            desc: "Creation of a page entirely in JS( JS Vanilla) for the audio generation. ",
+            techno:["All","HTML","CSS", "JS"]
+        }, {
+            link: "https://github.com/tenyega/bougePersonnage",
+            image:"../assets/bougePersonnage.png",
+            name: "Move the Person",
+            desc: "Creation of page in JS( JS Vanilla) to make the movement in every direction for the person using the keyboard",
+            techno:["All","HTML","CSS", "JS"]
+        }, {
+            link: "https://github.com/tenyega/rebond",
+            image:"../assets/rebound.png",
+            name: "Rebound",
+            desc: "Creation of a game entirely in JS( JS Vanilla) to make the balls move in every direction where the balls can be customised and its movements and the distance between the balls",
+            techno:["All","HTML","CSS", "JS"]
         }
     ]
     const results = projectList.filter((p) => p.techno.includes(prop));
