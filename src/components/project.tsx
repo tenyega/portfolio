@@ -84,19 +84,25 @@ export default function Project({ prop }: Props) {
             link: "https://github.com/tenyega/audioGenerator",
             image:"../assets/audio_generator.png",
             name: "Audio Generator",
-            desc: "Creation of a page entirely in JS( JS Vanilla) for the audio generation. ",
+            desc: "Creation of a page entirely in JS( JS Vanilla),css, html for the audio generation. ",
             techno:["All","HTML","CSS", "JS"]
         }, {
             link: "https://github.com/tenyega/bougePersonnage",
             image:"../assets/bougePersonnage.png",
             name: "Move the Person",
-            desc: "Creation of page in JS( JS Vanilla) to make the movement in every direction for the person using the keyboard",
+            desc: "Creation of page in JS( JS Vanilla),css, html to make the movement in every direction for the person using the keyboard",
             techno:["All","HTML","CSS", "JS"]
         }, {
             link: "https://github.com/tenyega/rebond",
             image:"../assets/rebound.png",
             name: "Rebound",
-            desc: "Creation of a game entirely in JS( JS Vanilla) to make the balls move in every direction where the balls can be customised and its movements and the distance between the balls",
+            desc: "Creation of a game entirely in JS( JS Vanilla),css, html to make the balls move in every direction where the balls can be customised and its movements and the distance between the balls",
+            techno:["All","HTML","CSS", "JS"]
+        }, {
+            link: "https://github.com/tenyega/captcha",
+            image:"../assets/captcha.png",
+            name: "Captcha Image Game",
+            desc: "Creation of a game entirely in JS( JS Vanilla),css, html for the image captcha",
             techno:["All","HTML","CSS", "JS"]
         }
     ]
