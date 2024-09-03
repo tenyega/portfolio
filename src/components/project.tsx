@@ -105,10 +105,16 @@ export default function Project({ prop }: Props) {
             desc: "Creation of a game entirely in JS( JS Vanilla),css, html for the image captcha",
             techno:["All","HTML","CSS", "JS"]
         }, {
-            link: "https://github.com/tenyega/unicode",
+            link: "http://15.236.131.94/unicode/unicode.html",
             image:"../assets/unicode.png",
             name: "Unicode",
             desc: "Creation of a game entirely in JS( JS Vanilla),css, html to affiche all the list of unicode with its image corresponding",
+            techno:["All","HTML","CSS", "JS"]
+        }, {
+            link: "http://15.236.131.94/moteur.html",
+            image:"../assets/moteur.png",
+            name: "Ball Motor Game",
+            desc: "Creation of a game entirely in JS( JS Vanilla),css, html for the ball game",
             techno:["All","HTML","CSS", "JS"]
         }
     ]
