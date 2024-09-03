@@ -116,6 +116,12 @@ export default function Project({ prop }: Props) {
             name: "Ball Motor Game",
             desc: "Creation of a game entirely in JS( JS Vanilla),css, html for the ball game",
             techno:["All","HTML","CSS", "JS"]
+        }, {
+            link: "https://github.com/tenyega/BLOG_TP",
+            image:"../assets/blog.png",
+            name: "Blog website",
+            desc: "Creation of blog website using an object oriented language in PHP",
+            techno:["All","HTML","CSS", "JS", "PHP"]
         }
     ]
     const results = projectList.filter((p) => p.techno.includes(prop));
