@@ -3,6 +3,13 @@ import Nav from "../components/nav";
 export default function Formation(){
     const dipliomeList = [{
         
+        "title": "Mastère Manager de Solutions Digitales et Data",
+        "logo": "../assets/logoImie.png",
+        "center": "IMIE Paris",
+        "location": "70 rue Anatole France, 92300 Levallois-Perret",
+        'year': "2025"
+    },{
+        
         "title": "Concepteur Developpeur D'Application",
         "logo": "../assets/logoPrepavenir.png",
         "center": "Prepavenir",
