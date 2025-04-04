@@ -17,10 +17,6 @@ export default function Skills() {
             name: "React",
             image:"https://api.iconify.design/logos:react.svg?color=%23ffffff",
             desc:"JS Library for building UI web applications"
-        }, {
-            name: "DevOps",
-            image: "https://api.iconify.design/logos:git-icon.svg?color=%23ffffff",
-            desc:"CI/CD with GitHub Action, VPS mounting and administration"
         },{
             name: "HTML",
             image: "https://api.iconify.design/devicon:html5-wordmark.svg?color=%23888888",

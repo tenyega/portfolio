@@ -9,8 +9,8 @@ import {
 import Home from './pages/Home';
 import Skills from './pages/Skills';
 import Contact from './pages/Contact';
-import Diplome from './pages/Formation';
 import Formation from './pages/Formation';
+import Project from './pages/ProjectList';
 
 
 
@@ -33,8 +33,8 @@ const router = createBrowserRouter([
     element: <Formation />
   },
   {
-    path: "/diplome",
-    element: <Diplome />
+    path: "/projects",
+    element: <Project/>
   }
 ]);
 
