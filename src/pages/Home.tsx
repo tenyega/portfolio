@@ -31,7 +31,7 @@ function Home() {
       <motion.div />
         <div>
           <Counter targetNumber={1} delay={1000} />
-          <h3>Tibetan(Maternal language)</h3>
+          <h3>English</h3>
         </div>
         <div>
           <Counter targetNumber={2} delay={1000} />
@@ -39,11 +39,11 @@ function Home() {
         </div>
         <div>
           <Counter targetNumber={3} delay={1000} />
-          <h3>English</h3>
+          <h3>Hindi</h3>
         </div>
         <div>
           <Counter targetNumber={4} delay={1000} />
-          <h3>Hindi</h3>
+          <h3>Tibetan(Native language)</h3>
         </div>
       </div>  
     </>
