@@ -5,6 +5,11 @@ import Nav from "../components/nav";
 export default function Skills() {
     const [choice, setChoice] = useState("All");
     const skillList = [
+    {
+            name: "Flutter Framework et Dart    ",
+            image: "https://cdn.icon-icons.com/icons2/2108/PNG/512/flutter_icon_130936.png",
+            desc:"Flutter is an open-source UI toolkit developed by Google that enables developers to build natively compiled applications for mobile, web, and desktop using a single codebase. It uses the Dart programming language and a reactive framework to render its own UI components via the Skia graphics engine, bypassing native OEM widgets for consistent performance and appearance."
+        },
      {
             name: "Phalcon",
             image: "https://philosophydcit101.files.wordpress.com/2018/03/php-phalcon-logo-1.jpg",

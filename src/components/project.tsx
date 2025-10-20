@@ -18,6 +18,20 @@ interface Props {
 export default function Project({ prop }: Props) {    
    
     const projectList = [
+     {
+            link:"https://tenyega.github.io/Landing-page-for-flutter-app/",
+            image: "../assets/mobileFlutter.png",
+            name: "Ruche Connectée Flutter",
+            desc: "Application Android for the surveillance of the beehive using Flutter and Dart online",
+            techno: [ "All",  "HTML" ,"CSS","JS","Flutter","Dart"]
+        },
+     {
+            link:"https://github.com/tenyega/rucheFinal",
+            image: "../assets/rucheConnecteeWeb.png",
+            name: "Ruche Connectée Web",
+            desc: "Application Android for the surveillance of the beehive using Flutter and Dart online",
+            techno: [ "All",  "HTML" ,"CSS","JS","Flutter","Dart"]
+        },
         {
             link:"https://hackathonfinal-kq82swkkl-tenyegas-projects.vercel.app/",
             image: "../assets/hackathon.png",
