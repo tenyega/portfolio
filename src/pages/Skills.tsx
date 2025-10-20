@@ -5,6 +5,11 @@ import Nav from "../components/nav";
 export default function Skills() {
     const [choice, setChoice] = useState("All");
     const skillList = [
+     {
+            name: "Phalcon",
+            image: "https://philosophydcit101.files.wordpress.com/2018/03/php-phalcon-logo-1.jpg",
+            desc:"Phalcon is a PHP web framework based on the model–view–controller (MVC) pattern. Written as a C extension, Phalcon is known for its high performance and low resource consumption."
+        },
         {
             name: "Symphony",
             image: "https://api.iconify.design/logos:symfony.svg?color=%23ffffff",
