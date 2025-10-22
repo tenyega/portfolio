@@ -5,6 +5,11 @@ import Nav from "../components/nav";
 export default function Skills() {
     const [choice, setChoice] = useState("All");
     const skillList = [
+     {
+            name: "JAVA",
+            image: "https://tse2.mm.bing.net/th/id/OIP.XO0b3dLefD7m5uDZHzZBTAHaDH?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3",
+            desc:"Java with Spring Boot is a powerful framework for building production-ready, stand-alone web applications with minimal configuration."
+        },
     {
             name: "Flutter",
             image: "https://cdn.icon-icons.com/icons2/2108/PNG/512/flutter_icon_130936.png",

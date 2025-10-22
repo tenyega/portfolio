@@ -19,6 +19,13 @@ export default function Project({ prop }: Props) {
    
     const projectList = [
      {
+            link:"https://placyde.net",
+            image: "../assets/placyde.png",
+            name: "Placyde",
+            desc: "A website developed for the RATP Group to help agents efficiently locate and respond to suspicious packages, with its billing.",
+            techno: [ "All",  "HTML" ,"CSS","JS","Phalcon"]
+        },
+     {
             link:"https://tenyega.github.io/Landing-page-for-flutter-app/",
             image: "../assets/mobileFlutter.png",
             name: "Ruche Connectée Flutter",
@@ -29,8 +36,8 @@ export default function Project({ prop }: Props) {
             link:"https://github.com/tenyega/rucheFinal",
             image: "../assets/rucheConnecteeWeb.png",
             name: "Ruche Connectée Web",
-            desc: "Application Android for the surveillance of the beehive using Flutter and Dart online",
-            techno: [ "All",  "HTML" ,"CSS","JS","Flutter"]
+            desc: "Application web for the surveillance of the beehive using java spring boot",
+            techno: [ "All",  "HTML" ,"CSS","JS","JAVA"]
         },
         {
             link:"https://hackathonfinal-kq82swkkl-tenyegas-projects.vercel.app/",
