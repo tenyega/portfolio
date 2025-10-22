@@ -6,14 +6,14 @@ export default function Skills() {
     const [choice, setChoice] = useState("All");
     const skillList = [
     {
-            name: "Flutter Framework et Dart    ",
+            name: "Dart",
             image: "https://cdn.icon-icons.com/icons2/2108/PNG/512/flutter_icon_130936.png",
-            desc:"Flutter is an open-source UI toolkit developed by Google that enables developers to build natively compiled applications for mobile, web, and desktop using a single codebase. It uses the Dart programming language and a reactive framework to render its own UI components via the Skia graphics engine, bypassing native OEM widgets for consistent performance and appearance."
+            desc:"Flutter is Google’s toolkit for building fast, cross-platform apps with a single codebase using Dart."
         },
      {
             name: "Phalcon",
             image: "https://philosophydcit101.files.wordpress.com/2018/03/php-phalcon-logo-1.jpg",
-            desc:"Phalcon is a PHP web framework based on the model–view–controller (MVC) pattern. Written as a C extension, Phalcon is known for its high performance and low resource consumption."
+            desc:"Phalcon is a high-performance PHP framework built as a C extension, following the MVC pattern and optimized for low resource usage."
         },
         {
             name: "Symphony",
