@@ -6,7 +6,7 @@ export default function Skills() {
     const [choice, setChoice] = useState("All");
     const skillList = [
     {
-            name: "Dart",
+            name: "Flutter",
             image: "https://cdn.icon-icons.com/icons2/2108/PNG/512/flutter_icon_130936.png",
             desc:"Flutter is Google’s toolkit for building fast, cross-platform apps with a single codebase using Dart."
         },

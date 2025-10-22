@@ -23,14 +23,14 @@ export default function Project({ prop }: Props) {
             image: "../assets/mobileFlutter.png",
             name: "Ruche Connectée Flutter",
             desc: "Application Android for the surveillance of the beehive using Flutter and Dart online",
-            techno: [ "All",  "HTML" ,"CSS","JS","Dart"]
+            techno: [ "All",  "HTML" ,"CSS","JS","Flutter"]
         },
      {
             link:"https://github.com/tenyega/rucheFinal",
             image: "../assets/rucheConnecteeWeb.png",
             name: "Ruche Connectée Web",
             desc: "Application Android for the surveillance of the beehive using Flutter and Dart online",
-            techno: [ "All",  "HTML" ,"CSS","JS","Dart"]
+            techno: [ "All",  "HTML" ,"CSS","JS","Flutter"]
         },
         {
             link:"https://hackathonfinal-kq82swkkl-tenyegas-projects.vercel.app/",
