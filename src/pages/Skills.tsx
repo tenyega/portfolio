@@ -75,7 +75,7 @@ export default function Skills() {
         },
         {
             name: "Python",
-            image: "https://github.com/tenyega/first-ever-python-projet",
+            image: "https://static.vecteezy.com/system/resources/previews/012/697/295/non_2x/3d-python-programming-language-logo-free-png.png",
             desc:"A projet in python for a casino. so that the user can make a bet with the max amount predefined"
         },
     ]

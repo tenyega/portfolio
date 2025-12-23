@@ -143,6 +143,13 @@ export default function Project({ prop }: Props) {
             name: "Blog website",
             desc: "Creation of blog website using an object oriented language in PHP",
             techno:["All","HTML","CSS", "JS", "PHP"]
+        },
+         {
+            link: "https://github.com/tenyega/first-ever-python-projet",
+            image:"https://static.vecteezy.com/system/resources/previews/012/697/295/non_2x/3d-python-programming-language-logo-free-png.png",
+            name: "First ever Python projet",
+            desc: "Creation of blog website using an object oriented language in PHP",
+             techno: ["All","Python"]
         }
     ]
     const results = projectList.filter((p) => p.techno.includes(prop));
