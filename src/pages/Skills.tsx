@@ -73,6 +73,11 @@ export default function Skills() {
             image: "https://api.iconify.design/vscode-icons:file-type-photoshop.svg?color=%23888888",
             desc:"graphics editing software , widely used for manipulating and enhancing digital images"
         },
+        {
+            name: "Python",
+            image: "https://github.com/tenyega/first-ever-python-projet",
+            desc:"A projet in python for a casino. so that the user can make a bet with the max amount predefined"
+        },
     ]
 
     
